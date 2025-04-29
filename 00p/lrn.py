@@ -1,5 +1,5 @@
 class Daily:
-    days = {"Понедельник" : "", "Вторник" : "", "Среда" : ""}
+    days = {"Понедельник" : "", "Вторник" : "", "Среда" : "", "Четверг" : "", "Пятница" : "",}
     def __init__(self, day_index=1, day_name="Monday", task="-"):
         self.day_index = day_index
         self.day_name = day_name
